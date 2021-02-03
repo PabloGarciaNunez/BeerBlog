@@ -15,7 +15,7 @@ class BeerApplication : Application() {
     }
 
     override fun onCreate() {
-        
+        // this is a test
         super.onCreate()
         component.inject(this)
     }
