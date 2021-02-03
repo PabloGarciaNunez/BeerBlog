@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/recipes"
+        android:title=""
+        android:icon="@drawable/selector_recipes"/>
+    <item android:id="@+id/beer_list"
+        android:title=""
+        android:icon="@drawable/selector_beer_list" />
+    <item android:id="@+id/settings"
+        android:title=""
+        android:icon="@drawable/selector_settings" />
+
+</menu>

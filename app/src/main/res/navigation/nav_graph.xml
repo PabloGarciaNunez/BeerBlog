@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/recipes">
+
+    <include app:graph="@navigation/beer_detail_nav" />
+    <include app:graph="@navigation/new_beer_nav" />
+
+    <fragment
+        android:id="@+id/recipes"
+        android:name="com.example.blogdelcervecero.ui.recipes.RecipesListFragment"
+        android:label="fragent_recipes_list"
+        tools:layout="@layout/fragment_recipes_list"/>
+
+    <fragment
+        android:id="@+id/beer_list"
+        android:name="com.example.blogdelcervecero.ui.beer.list.BeerListFragment"
+        android:label="fragment_beer_list"
+        tools:layout="@layout/fragment_beer_list" >
+
+        <action
+            android:id="@+id/actionBeerDetail"
+            app:destination="@id/actionBeerDetail"/>
+
+        <action
+            android:id="@+id/actionNewBeer"
+            app:destination="@id/actionNewBeer"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.blogdelcervecero.ui.settings.SettingsFragment"
+        android:label="fragment_new_beer"
+        tools:layout="@layout/fragment_new_beer" />
+
+</navigation>

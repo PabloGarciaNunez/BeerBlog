@@ -1,0 +1,28 @@
+[
+  {
+    "name": "American Ipa",
+    "volume": 15,
+    "hops": [
+      "Citra",
+      "Simcoe"
+    ]
+  },
+  {
+    "name": "New England Ipa",
+    "volume": 35,
+    "hops": [
+      "Mosaic",
+      "Centennial",
+      "Amarillo"
+    ]
+  },
+  {
+    "name": "New England Ipa",
+    "volume": 21,
+    "hops": [
+      "Chinook",
+      "Willamette",
+      "Amarillo"
+    ]
+  }
+]

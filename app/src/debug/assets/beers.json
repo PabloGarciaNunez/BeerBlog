@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Beer 001",
+    "style": "Style 001",
+    "grades": 5.0
+  },
+  {
+    "name": "Beer 002",
+    "style": "Style 002",
+    "grades": 5.1
+  },
+  {
+    "name": "Beer 003",
+    "style": "Style 002",
+    "grades": 5.2
+  },
+  {
+    "name": "Beer 005",
+    "style": "Style 003",
+    "grades": 5.3
+  },
+  {
+    "name": "Beer 006",
+    "style": "Style 003",
+    "grades": 5.0
+  },
+  {
+    "name": "Beer 007",
+    "style": "Style 001",
+    "grades": 5.1
+  },
+  {
+    "name": "Beer 008",
+    "style": "Style 001",
+    "grades": 5.2
+  },
+  {
+    "name": "Beer 009",
+    "style": "Style 003",
+    "grades": 5.3
+  }
+]
